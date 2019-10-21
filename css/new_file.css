@@ -1,0 +1,79 @@
+*{padding: 0;margin: 0;}
+.title{
+	margin-left: 25%;
+	padding: 20px 0;
+	font-size: 50px;
+}
+
+#to-check{
+	float: left;
+	margin-top: 25px;
+	display: none;
+}
+
+
+.too-check{
+	float: left;
+	margin-top: 15px;
+	display: block;
+}
+
+#to-input{
+	width: 440px;
+	height: 60px;
+	font-size: 20px;
+	border: none;
+}
+
+.clone{
+	float: left;
+	width: 440px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	background: deepskyblue;
+	font-size: 25px;
+	color: white;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.clone-copy{
+	width: 475px;
+	margin-bottom: 5px;
+	height: 40px;
+}
+
+.tolist{
+	width: 480px;
+	height: 50px;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+.close{
+	float: left;
+	margin-top: 15px;
+}
+
+.tonji{
+	float: left;
+}
+
+.table{
+	float: left;
+	margin-left: 250px;
+}
+
+.table>input{
+	float: left;
+	margin-right: 10px;
+}
+
+.showhid span{
+	display: none;
+}
+
+.showhid .show{
+	display: block;
+}

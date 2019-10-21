@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/new_file.css" />
+		<style>
+			.clone-copy{
+				display: block;
+			}
+		</style>
+	</head>
+	<body>
+		<div style="width: 100%;height: 300px;background-color: beige;padding-left: 10%;">
+			<h1 class="title">todos</h1>
+			<div>
+				<input type="checkbox" id="to-check" style=""/>
+				<input onkeydown="return inner(event)" type="todos-input" placeholder="What needs to be done" id="to-input"/>
+			</div>
+			
+			<div class="showhid">
+				<span class="show">
+					<div id="tolist">
+						<!--<div class="clone-copy" onmouseover="show(index)" onmouseout="">
+							<input type="checkbox" class="too-check"/>
+							<div>
+								<p class="clone"></p>
+							</div>
+							<input type="image" src="img/close.png" class="close" style="display: none;" onclick="remove()"/>
+						</div>-->
+					</div>
+				</span>
+			</div>
+			
+			<div class="tab">
+				<div class="tonji">统计<span id="sumatch"></span></div>
+				<div class="table">
+					<input  type="button" value="全部"  onclick=""/>
+					<input  type="button" value="已完成"  onclick="check_true()"/>
+					<input  type="button" value="未完成" onclick="check_false()"/>
+				</div>
+			</div>
+		
+		</div>
+
+		<script type="text/javascript" src="js/new_files2.js" ></script>
+	<script>
+		function check_false() {
+
+		}
+	</script>
+	</body>
+</html>
